@@ -1,0 +1,31 @@
+body{/*estilacion del cuerpo*/
+    margin: 0;/*centrar horizontalmente un elemento dentro de su contenedor padre*/
+    font-family: Arial,sans-serif; /*letra de texto*/
+    background-color: cadetblue;/*color del borde*/
+    width: 100%;/*ancho*/
+    height: 100%;/*largo*/
+}
+.header{
+    text-align: center;/*CENTRACION DEL TEXTO*/
+    padding: 10px;/* espacio interno dentro de un elemento*/
+    width: 100%;/*ancho*/
+    background-color: antiquewhite;/*color del borde*/
+    position: fixed;/* posicionar un elemento de manera fija */
+    top: 0;/*especificar la distancia entre el borde superior de un elemento*/
+    font-size: 2vh;/* establecer el tamaño del texto en un elemento de una página web*/
+}
+.content{  /*imagen*/
+    margin: 10px;/*centrar horizontalmente un elemento dentro de su contenedor padre*/
+    align-items: center;/*contenedores flexibles para controlar cómo se alinean los elementos secundarios */
+    align-content: center;/*controlar la alineación del contenido en el eje transversal de un contenedor flexbox*/
+}
+.content img{ /*centracion de imagen*/
+    width: 100%;/*ancho*/
+    margin-top: 90px;/*establecer el margen superior de un elemento*/
+}
+.footer{
+    text-align: center;/*CENTRACION DEL TEXTO*/
+    padding: 10px;/* espacio interno dentro de un elemento*/
+    background-color: beige;/*color del borde*/
+    bottom: 0;/*establecer la distancia entre el borde inferior de un elemento y el borde inferior del contenedor padre*/
+}

@@ -1,0 +1,40 @@
+.ColorTransparente{ /*transparencia*/
+    width: 300px; /*ancho*/
+    background: transparent; /*fondo de un elemento como transparente*/
+    background: rgba(138, 221, 45, 0); /*fondo de un elemento*/
+}
+body{ /*estilacion del cuerpo*/
+    margin: 0%; /*controlar el espacio entre los bordes del elemento*/
+}
+iframe{  /*tamaño, posición y otras propiedades de diseño*/
+    position: fixed; /* posicionar un elemento de manera fija en relación con la ventana del navegador*/
+    min-width: 100%; /* establecer la anchura mínima que puede tener un elemento*/
+    min-height: 160%; /* establecer la altura mínima que puede tener un elemento*/
+    
+    top: 50%; /*posición vertical de un elemento posicionado*/
+    left: 50%; /*posición horizontal de un elemento*/
+    transform: translateX(-50%) translateY(-50%); /*realiza transformaciones visuales en elementos */
+    z-index: -1; /*controlar el orden de apilamiento de elementos*/
+}
+.texto{ /*estilacion de texto de elemento*/
+    color: rgb(75, 37, 1); /*color de texto*/
+}
+.img{ /*estilacion de imagen*/
+    display: block; /*un elemento debe ser mostrado como un bloque*/
+    margin: auto; /*centrar horizontalmente un elemento dentro de su contenedor padre*/
+    width: 325px; /*ancho de la imagen*/
+    height: 420px; /*altura d ela imagen*/
+    border-radius: 20px; /* controlar el radio de las esquinas de un elemento con borde*/
+    box-shadow: 2px 2px 3px white,0 0 1em rgb(243, 247, 34),0 0 0.2em rgba(219, 255, 12, 0.952); /*agregar sombras a los 
+    elementos de una página web*/
+}
+.punteado{ /*estilacion de punteado*/
+    border-style: dotted; /*estilo de línea de los bordes de un elemento*/
+    border-width: 4px; /*borde de ancho de un elemento*/
+    border-color: 660033; /*color del borde*/
+    background-color: cc3366; /*color de fondo de un elemento*/
+    font-family: verdana, arial; /*especificar la familia de fuentes que se aplicará a un elemento de texto*/
+    font-size: 20pt; /*Tamaño del texto dentro de un elemento */
+    background: transparent; /*fondo de un elemento como transparente*/
+    background: rgba(18, 1, 80, 0.438); /*fondo de un elemento*/
+}

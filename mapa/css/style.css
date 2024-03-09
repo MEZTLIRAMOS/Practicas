@@ -1,0 +1,84 @@
+iframe{ /*estilo al video*/
+    /* investigar  */
+    position: fixed;/* posicionar un elemento de manera fija en relación con la ventana del navegador*/
+    min-width: 100%; /* establecer la anchura mínima que puede tener un elemento*/
+    min-height: 100%; /* establecer la altura mínima que puede tener un elemento*/
+
+    top: 50%; /*posición vertical de un elemento posicionado*/
+    left: 50%; /*posición horizontal de un elemento*/
+    transform: translateX(-50%) translateY(-50%); /*realiza transformaciones visuales en elementos */
+    z-index: -1; /*controlar el orden de apilamiento de elementos*/
+}
+.caja1{ /*estilo de la caja 1*/
+    width: 20%; /*ancho*/
+    margin-left: auto; /*controlar los márgenes*/
+    margin-right: auto; /*margen derecho de un elemento*/
+}
+.caja1{ /*estilo caja1*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*especificar la familia de fuentes que se aplicará a un elemento de texto*/
+    color: rgb(247, 245, 246); /*color*/
+    text-align: center; /*CENTRACION DEL TEXTO*/
+    border-radius: 0px;/*redondear las esquinas de un elemento*/
+    background-color:black;/*color del borde*/
+    /* border-style: dashed; */
+    border-style: double; /*estilo de línea de los bordes de un elemento*/
+}
+.c2{ /*estilo caja2*/
+    border-left: thick solid #000; /*establecer el estilo de borde específicamente en el lado izquierdo de un elemento*/
+    height: 15%; /*altura*/
+    left: 50%;/*establece la distancia desde el borde izquierdo del elemento*/
+    position: absolute;/*posicionar un elemento de manera absoluta dentro de su contenedor principal*/
+}
+.caja3{ /*estilo caja3*/
+    margin-top: 6.5%; /*establecer el margen superior de un elemento*/
+    margin-left: 25%; /* establecer el margen izquierdo de un elemento*/
+    
+    border: thick solid #000;/*definir el borde alrededor de un elemento*/
+    width: 50%; /*ancho*/
+    position: absolute;/*posicionar un elemento de manera absoluta dentro de su contenedor principal*/
+}
+.caja4{ /*estilo caja4*/
+    margin-top: 6.5%; /*establecer el margen superior de un elemento*/
+    border-left: thick solid #000; /*establecer el estilo de borde específicamente en el lado izquierdo de un elemento*/
+    height: 15%; /*altura*/
+    left: 25.5%;/*establece la distancia desde el borde izquierdo del elemento*/
+    position: absolute;/*posicionar un elemento de manera absoluta dentro de su contenedor principal*/
+}
+.caja5{ /*estilo caja5*/
+    margin-top: 7%; /*establecer el margen superior de un elemento*/
+    border-left: thick solid #000; /*establecer el estilo de borde específicamente en el lado izquierdo de un elemento*/
+    height: 15%; /*altura*/
+    left: 76%;/*establece la distancia desde el borde izquierdo del elemento*/
+    position: absolute;/*posicionar un elemento de manera absoluta dentro de su contenedor principal*/
+}
+.caja6{ /*estilo caja6*/
+    width: 20%; /*ancho*/
+    margin-top: 13.5%;/*establecer el margen superior de un elemento*/
+    margin-left: 15%;/*establecer el estilo de borde específicamente en el lado izquierdo de un elemento*/
+    margin-right: auto;/*margen derecho de un elemento*/
+        
+}
+.caja6{ /*estilo caja6*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;/*especificar la familia de fuentes que se aplicará a un elemento de texto*/
+    color: rgb(250, 243, 247);/*color*/
+    text-align: center;/*CENTRACION DEL TEXTO*/
+    border-radius: .1px; /*redondear las esquinas de un elemento*/
+    background-color: black;/*color del borde*/
+    /* border-style: dashed; */
+    border-style: double; /*estilo de línea de los bordes de un elemento*/
+}
+.caja7{ /*estilo caja7*/
+    width: 20%; /*ancho*/
+    margin-top: -3.5%; /*establecer el margen superior de un elemento*/
+    margin-left: auto;/*establecer el estilo de borde específicamente en el lado izquierdo de un elemento*/
+    margin-right: 13%;/*margen derecho de un elemento*/
+}
+.caja7{ /*estilo caja7*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;/*especificar la familia de fuentes que se aplicará a un elemento de texto*/
+    color:rgb(248, 243, 246);/*color*/
+    text-align: center;/*CENTRACION DEL TEXTO*/
+    border-radius: .1px;/*redondear las esquinas de un elemento*/
+    background-color: black;/*color del borde*/
+    /* border-style: dashed; */
+    border-style: double; /*estilo de línea de los bordes de un elemento*/
+}

@@ -1,0 +1,22 @@
+body{ /*cuerpo de forndo de la pagina */
+    background-color: black;/*color de fondo negro*/
+}
+h1{ /*texto*/
+    text-align: center; /*centrado el texto*/
+    font-family: Comic Sans Ms; /* letra para que se muestre en la pagina*/
+}
+pre{ /*texto de la cancion*/
+    .colorText{ /*color del texto*/
+        color: white; /*color blanco */
+        text-align: center; /*centrado*/
+        font-family: Comic Sans Ms; /*tipo de letra*/
+    }
+    text-align: center;
+}
+.colorText{
+    color: white;
+}
+.colorText{
+    color: white;
+}
+

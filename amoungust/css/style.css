@@ -1,0 +1,70 @@
+.circulo{ /*estilo de circulo*/
+    width: 200px;/*ancho*/
+    height: 200px;/*alto*/
+    border-radius: 200px;/* controlar el radio de las esquinas de un elemento con borde*/
+    background-color: rgba(240, 98, 169, 0.973);/*color del borde*/
+    /* border-style: solid; */
+    margin-bottom: 220px;/* establecer el espacio en blanco entre el borde inferior de un elemento y el borde superior del elemento */
+    display: block;/*ESPECIFICACION Y DISEÑO DE LA PAGINA*/
+    margin-left: auto;/*establecer el estilo de borde específicamente en el lado izquierdo de un elemento*/
+    margin-right: auto;/*margen derecho de un elemento*/
+} 
+.rectangulo{
+    width: 200px;/*ancho*/
+    height: 200px;/*alto*/
+    background-color: rgb(240, 98, 169, 0.973);/*color del borde*/
+    /* border-style: solid; */
+    margin-bottom: 10px;/* establecer el espacio en blanco entre el borde inferior de un elemento y el borde superior del elemento */
+    display: block;/*ESPECIFICACION Y DISEÑO DE LA PAGINA*/
+    margin-left: auto;/*establecer el estilo de borde específicamente en el lado izquierdo de un elemento*/
+    margin-right: auto;/*margen derecho de un elemento*/
+    margin-top: -25%;/*establecer el margen superior de un elemento*/
+} 
+.rectangulo1{
+    width: 50px;/*ancho*/
+    height: 90px;/*alto*/
+    background-color: rgb(240, 98, 169, 0.973);/*color del borde*/
+    border-style: solid; /*estilo de línea de los bordes de un elemento*/
+    margin-bottom: 10px;/* establecer el espacio en blanco entre el borde inferior de un elemento y el borde superior del elemento */
+    display: block;/*ESPECIFICACION Y DISEÑO DE LA PAGINA*/
+    margin-left: 520px;/*establecer el estilo de borde específicamente en el lado izquierdo de un elemento*/
+    margin-right: auto;/*margen derecho de un elemento*/
+    margin-top: -15%;/*establecer el margen superior de un elemento*/
+} 
+.rectangulo2{
+    width: 50px;/*ancho*/
+    height: 80px;/*alto*/
+    background-color: rgb(240, 98, 169, 0.973);/*color del borde*/
+    /* border-style: solid; */
+    margin-bottom: 10px;/* establecer el espacio en blanco entre el borde inferior de un elemento y el borde superior del elemento */
+    display: block;/*ESPECIFICACION Y DISEÑO DE LA PAGINA*/
+    margin-left: auto;/*establecer el estilo de borde específicamente en el lado izquierdo de un elemento*/
+    margin-right: 580px;/*margen derecho de un elemento*/
+    margin-top: 5%;/*establecer el margen superior de un elemento*/
+    border-radius: 50px;/* controlar el radio de las esquinas de un elemento con borde*/
+} 
+.rectangulo3{
+    width: 50px;/*ancho*/
+    height: 80px;/*alto*/
+    background-color: rgb(240, 98, 169, 0.973);/*color del borde*/
+    /* border-style: solid; */
+    margin-bottom: 10px;/* establecer el espacio en blanco entre el borde inferior de un elemento y el borde superior del elemento */
+    display: block;/*ESPECIFICACION Y DISEÑO DE LA PAGINA*/
+    margin-left: 580px;/*establecer el estilo de borde específicamente en el lado izquierdo de un elemento*/
+    margin-right: auto;/*margen derecho de un elemento*/
+    margin-top: -6.5%;/*establecer el margen superior de un elemento*/
+    border-radius: 50px;/* controlar el radio de las esquinas de un elemento con borde*/
+} 
+.rectangulo4{
+    width: 55px;/*ancho*/
+    height: 120px;/*alto*/
+    background-color: rgb(73, 210, 212);/*color del borde*/
+    border-style: solid; /*estilo de línea de los bordes de un elemento*/
+    margin-bottom: 10px;/* establecer el espacio en blanco entre el borde inferior de un elemento y el borde superior del elemento */
+    display: block;/*ESPECIFICACION Y DISEÑO DE LA PAGINA*/
+    margin-left: 700px;/*establecer el estilo de borde específicamente en el lado izquierdo de un elemento*/
+    margin-right: auto;/*margen derecho de un elemento*/
+    margin-top: -25%; /*establecer el margen superior de un elemento*/
+    border-radius: 50px;/* controlar el radio de las esquinas de un elemento con borde*/
+    transform: rotate(-90deg);
+}

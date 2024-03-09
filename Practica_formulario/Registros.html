@@ -1,0 +1,43 @@
+<!DOCTYPE html> <!--Informacion al navegador dellenguaje-->
+<html lang="en"> <!--Idioma-->
+<head> <!--Provee informacion del documento-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario</title> <!--Titulo de la pagina-->
+    <link rel="stylesheet" href="../Practica_formulario/CSS/style.css"> <!--estilacion con CSS-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet">
+</head>
+<body> <!--abertura del cuerpo-->
+ <main id="is"> <!--contenido principal -->
+    <video autoplay loop muted id="videoFondo"> <!--video conrepeticion en silencio-->
+    <!--liga de link en youtube-->
+        <source src="../Practica_formulario/Video/Malcolm in the middle_el de enmedio intro HD..mp4" type="video/mp4"/>
+    </video>
+    <br> <!--salto de linea-->
+    <br> <!--salto de linea-->
+    <br> <!--salto de linea-->
+  <div class="wra"> <!--agrupacion con una estructura-->
+    <!--titulo-->
+    <form action=""> <!--contenido de formulario-->
+        <h1>Registro Usuario</h1>  <!--etiqueta de nivel 1 en titulo-->
+        <div class="input-box"> <!--campos de entrada de formularios-->
+            <input type="text" placeholder="Username"
+            requiered> <!--campo de entrada de texto-->
+            <i class='bx bxs-user'></i>  <!--etiqueta de elemento con clase de CSS-->
+        </div>
+        <div class="input-box"> <!--campo de entrada de formulario-->
+            <input type="password" placeholder="Password"
+            requiered> <!--campo de entrada de texto-->
+            <i class='bx bxs-lock-alt'></i> <!--etiqueta de elemento en clase de CSS-->
+        </div>
+        <br> <!--salto de linea-->
+        <button type="submit" class="btn"> Entrar </button> <!--boton para cuando aga click-->
+        <div class="register-link"> <!--campo de entrada-->
+            <p>No Tienes Cuenta.. <a href="#">Registrate</a></p> <!--cuando marque un error no le dara permitido entrar-->
+        </div>
+    </form>
+  </div>
+</main>
+</body>
+</html>

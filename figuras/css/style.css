@@ -1,0 +1,44 @@
+.circulo{ /*estilacion del cierculo*/
+    width: 100px; /*Ancho de circulo*/
+    height: 100px; /*Altura de circulo*/
+    border-radius: 50%;/* controlar el radio de las esquinas de un elemento con borde*/
+    background-color: blue;/*color del borde*/
+    border-style: solid;/*estilo de línea de los bordes de un elemento*/
+    margin-bottom: 10px;/* establecer el espacio en blanco entre el borde inferior de un elemento y el borde superior del elemento */
+    display: block;/*ESPECIFICACION Y DISEÑO DE LA PAGINA*/
+    margin-left: auto;/*establecer el estilo de borde específicamente en el lado izquierdo de un elemento*/
+    margin-right: auto;/*margen derecho de un elemento*/
+}
+.rectangulo{
+    width: 150px; /*Ancho de circulo*/
+    height: 100px; /*Altura de circulo*/
+    background-color: red;/*color del borde*/
+    border-style: solid;/*estilo de línea de los bordes de un elemento*/
+    margin-bottom: 10px;/* establecer el espacio en blanco entre el borde inferior de un elemento y el borde superior del elemento */
+    display: block;/*ESPECIFICACION Y DISEÑO DE LA PAGINA*/
+    margin-left: auto;/*establecer el estilo de borde específicamente en el lado izquierdo de un elemento*/
+    margin-right: auto;/*margen derecho de un elemento*/
+}
+.triangulo{
+    width: 0px; /*Ancho de circulo*/
+    height: 0px; /*Altura de circulo*/
+    border: 150px solid transparent;/*base fondo de la division*/
+    border-top: 0;/*establecer el margen superior de un elemento*/
+    border-bottom: 150px solid rgb(13, 245, 25);/* establecer el espacio en blanco entre el borde inferior de un elemento y el
+    borde superior del elemento */
+    margin-left: auto;/*establecer el estilo de borde específicamente en el lado izquierdo de un elemento*/
+    margin-right: auto;/*margen derecho de un elemento*/
+    display: block;/*ESPECIFICACION Y DISEÑO DE LA PAGINA*/
+}
+.rombo{
+    width: 150px; /*Ancho de circulo*/
+    height: 150px; /*Altura de circulo*/
+    background-color: firebrick;/*color del borde*/
+    position: relative;/* posicionar un elemento de manera relativa con respecto a su posición original */
+    transform: rotate(45deg);/*se gira a 45°*/
+    margin-top: 50px;/*establecer el margen superior de un elemento*/
+    margin-left: 40px;/*establecer el estilo de borde específicamente en el lado izquierdo de un elemento*/
+    margin-right: solid;/*margen derecho de un elemento*/
+    margin-left: auto;/*establecer el estilo de borde específicamente en el lado izquierdo de un elemento*/
+    margin-right: auto;/*margen derecho de un elemento*/
+}

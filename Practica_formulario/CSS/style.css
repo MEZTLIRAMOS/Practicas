@@ -1,0 +1,106 @@
+/*ESTILACION DE VIDEO*/
+video{
+    position: absolute; /*posicionar un elemento de manera absoluta dentro de su contenedor principal*/
+    top: 0; /*DISTANCIA DEL BORDE*/
+    left: 0; /*DISTANCIA DEL BORDE*/
+    width: 100%; /*HANCHO DE VIDEO*/
+    height: 100%; /*ALTURA DE VIDEO*/
+    object-fit: cover; /*AJUSTES DEL CONTENEDOR*/
+}
+*{ /*SELECCION UNIVERSAL DE ELEMENTOS DE PAGINA*/
+    margin: 0; /*ESPACIO ENTRE EL BORDE EXTERIOR*/
+    padding: 0; /* espacio interno dentro de un elemento*/
+    box-sizing: border-box; /*CALCULAR EL TAMAÑO TOTAL DE UN ELEMENTO*/
+    font-family: "poppins", sans-serif; /*TIPO DE FUENTE*/
+}
+body{ /*estilacion del cuerpo*/
+    display: flex; /*ESPECIFICACION Y DISEÑO DE LA PAGINA*/
+    justify-content: center; /*JUSTIFICACION DE CENTRACION*/
+    align-items: center; /*ALINEACION DE ELEMENTOS SECUNDARIOS*/
+    min-height: 100%; /*establecer la altura mínima de un elemento*/
+    background: url('1.mp4') no-repeat ; /*SE PONE EL VIDEO DESCARGADO*/
+    background-size: cover; /*tamaño de la imagen de fondo de un elemento*/
+    background-position: center; /*POSICION DE VIDEO CENTRACION*/
+
+}
+.wra{ /*ESTILACION DE LA CLASE WRA DE ELEMENTO*/
+    width: 520px; /*ANCHO*/
+    background: transparent; /*TRANPARENCIA DEL RECUADRO*/
+    border: 2px solid rgba(255, 255, 255, .2); /*establecer el estilo, grosor y color del borde de un elemento*/
+    backdrop-filter: blur(10px); /*aplicar efectos de filtro a los elementos */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /*agregar sombras a los elementos en una página web*/
+    color: #fff; /*COLOR QUE SE LE DA A LAS LETRAS, FONTO DEPENDIENDO DE LA PAGINA*/
+    border-radius: 40px; /*redondear las esquinas de un elemento*/
+    padding: 50px 40px; /*establecer el espacio entre el contenido de un elemento y sus bordes*/
+}
+.wra{ /*ESTILACION DE LA CLASE WRA DE ELEMENTO*/
+    font-size: 20px; /*Tamaño del texto dentro de un elemento */
+    text-align: center; /*CENTRACION DEL TEXTO*/
+}
+.wra.imput-box{ /*ESTILACION DE LA CLASE WRA CON EL IMPUT-BOX DE ELEMENTO*/
+    position: relative; /*POSICION*/
+    width: 100%; /*ANCHO DE LA IMAGEN, VIDEO, CUADRO ENTRE OTRAS*/
+    height: 80px; /*LARGO DE IMAGEN, VIDEO, CUADROS ETC*/
+    margin: 50px 0; /*MARGEN DE IMAGEN, VIDEO, CUADRO ETC*/
+}
+.imput-box input{ /*ESTILACION DE ENTRADA*/
+    width: 100%; /*ANCHO */
+    height: 100%; /*LARGO*/
+    background:transparent; /*TRANPARENCIA*/
+    border: none; /*establecer el estilo, grosor y color del borde de un elemento*/
+    outline: none; /*establecer un contorno alrededor de un elemento,*/
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 80px; /*redondear las esquinas de un elemento*/
+    font-size: 25px; /*Tamaño del texto dentro de un elemento */
+    color: #fff; /*COLOR QUE SE LE DA A LAS LETRAS, FONTO DEPENDIENDO DE LA PAGINA*/
+    padding: 20px 45px 20px; /*establecer el espacio entre el contenido de un elemento y sus bordes*/
+}
+.imput-box imput::placeholder{ /*imput::placeholder DE ELEMENTOS DE ENTRADA*/
+    color: #fff; /*COLOR*/
+}
+.imput-box i{ /*ESTILACION DE ELEMENTOS*/
+    position: absolute; /*posicionar un elemento de manera absoluta dentro de su contenedor principal*/
+    right: 10px; /*POSICION DE UN ELEMENTO*/
+    top: 20%; /*combinación con la propiedad */
+    transform: translateY(-50); /*aplicar transformaciones a un elemento en una página web, como rotación, escala, traslación y deformación*/
+    font-size: 20px; /*Tamaño del texto dentro de un elemento */
+}
+.wra .remember-forgot{ /*ESTILACION DE ELEMENTOS*/
+    display: flex; /*ESPECIFICACION Y DISEÑO DE LA PAGINA*/
+    justify-content: space-between; /*JUSTIFICACION DE CONTENIDO*/
+    font-size: 14.5px; /*Tamaño del texto dentro de un elemento */
+    margin: -15px 0 15px; /*MARGEN DE IMAGEN, VIDEO, CUADRO ETC*/
+}
+.remember-forgot a{ /*ESTILACION DE ELEMENTOS*/
+    color: #fff; /*COLOR*/
+    text-decoration:none; /*DECORACION DE TEXTO*/
+}
+.remember-forgot a:hover{ /*ESTILACION DE ELEMENTOS*/
+    text-decoration: underline ; /*DECORACION DE TEXTO*/
+}
+.wra .btn{ /*ESTILACION DE ELEMENTOS*/
+    width: 100%; /*ANCHO*/
+    height: 45px; /*LARGO*/
+    background: #fff ; /*varios aspectos del fondo de un elemento*/
+    border: none; /*BORDE*/
+    outline: none; /*establecer un contorno alrededor de un elemento,*/
+    border-radius: 40px; /*redondear las esquinas de un elemento*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1); /*agregar sombras a los elementos en una página web*/
+    cursor: pointer; /*tipo de cursor que se muestra cuando el usuario*/
+    font-size: 16px; /*Tamaño del texto dentro de un elemento */
+    color: #333; /*COLOR*/
+    font-weight: 600; /*especificar el grosor o la negrita del texto en un elemento */
+}
+.wra .register-link{ /*ESTILACION DE RESGISTROS DE LINK*/
+    font-size: 14.5px; /*Tamaño del texto dentro de un elemento */
+    text-align: center; /*CENTRACION DEL TEXTO*/
+    margin: 20px 0 15px; /*MARGEN DE IMAGEN, VIDEO, CUADRO ETC*/
+}
+.register-link p a{ /*ESTILACION DE REGISTRACION DE LINK*/
+    color: #fff; /*COLOR*/
+    text-decoration: none; /*DECORACION DE TEXTO*/
+    font-weight: 600; /*especificar el grosor o la negrita del texto en un elemento */
+}
+.register-link p a:hover{ /*ESTILACION DE RESGISTACION DE LINK*/
+    text-decoration: underline; /*DECORACION DE TEXTO*/
+}

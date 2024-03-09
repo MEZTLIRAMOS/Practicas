@@ -1,0 +1,42 @@
+* {/*seleccion universal de elementos*/
+    box-sizing: border-box;/*CALCULAR EL TAMAÑO TOTAL DE UN ELEMENTO*/
+    /*tipo de texto*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;/*especificar el grosor o la negrita del texto en un elemento*/
+}
+.container {
+    display: flex;/*ESPECIFICACION Y DISEÑO DE LA PAGINA*/
+    flex-wrap: wrap;/* conjunción con la propiedad*/
+}
+.left, .main, .right {
+    padding: 20px;/* espacio interno dentro de un elemento*/
+    text-align: center;/*CENTRACION DEL TEXTO*/
+}
+.left {
+    background-color:aquamarine;/*color del borde*/
+    color:azure;/*color*/
+    flex: 1;/*permite crear diseños más fluidos y dinámicos*/
+}
+.main {
+    background-color:skyblue;/*color del borde*/
+    color: beige;/*color*/
+    flex: 2;/*permite crear diseños más fluidos y dinámicos*/
+}
+.right {
+    background-color:powderblue;/*color del borde*/
+    color:blanchedalmond;/*color*/
+    flex: 1;/*permite crear diseños más fluidos y dinámicos*/
+}
+@media screen and (max-width: 600px) {/*aplicar estilos específicos a un documento basado en el tipo de dispositivo o las 
+    características de visualización del dispositivo, como el tamaño de la pantalla, la resolución, la orientación, etc*/
+    .left, .main, .right {
+        flex: 100%;
+    }
+}
+
+/*f12 1 boton la resolucion de contenedores, adento del contener una lista y de la lista un  aidren
+2do resoluciones maxima 659 modificacion media query
+@ consultas responsivas medias querys*/
+
+/* geter moter y 3 imagenes */
+/* media querys en css y que son los banner */
